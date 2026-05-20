@@ -3,12 +3,16 @@ package com.tecnocomfenalco.edurag.eduraggroq.service;
 
 import com.tecnocomfenalco.edurag.eduraggroq.dto.RagResponseDto;
 import com.tecnocomfenalco.edurag.eduraggroq.model.DocumentChunk;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class RagService {
+
+    private static final Logger log = LoggerFactory.getLogger(RagService.class);
 
     private final RetrievalService retrievalService;
     private final GroqService groqService;
@@ -27,7 +31,8 @@ public class RagService {
         try {
             answer = groqService.generateAnswer(question, context);
         } catch (Exception e) {
-            answer = "No fue posible consultar Groq. Contexto recuperado localmente:\n\n" + context;
+            log.error("Error al llamar a Groq: {} - {}", e.getClass().getSimpleName(), e.getMessage(), e);
+            answer = "No fue posible consultar Groq. Error: " + e.getMessage() + "\n\nContexto recuperado localmente:\n\n" + context;
         }
 
         List<String> sources = chunks.stream()

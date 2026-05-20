@@ -1,5 +1,165 @@
-El proyecto de aula es una estrategia académica que integra conocimientos de varias asignaturas alrededor de un producto funcional. En el contexto de Desarrollo Web Avanzado, el proyecto debe evidenciar una aplicación web con frontend, backend, base de datos y una integración tecnológica relevante.
+Resumen General
 
-Para una demostración académica, el proyecto debe incluir planteamiento del problema, objetivos, arquitectura, modelo de datos, funcionalidades implementadas, pruebas y conclusiones.
+El proyecto GAV (Gestión Asignación Viajes) busca desarrollar un aplicativo web integral para optimizar la gestión de transporte en hoteles de Cartagena, enfocándose en la asignación de conductores, rutas y viajes. Surge como respuesta a problemas de planificación manual, retrasos, duplicidad de rutas, mala gestión administrativa y pérdida de eficiencia operativa.
 
-Cuando se integra inteligencia artificial, es importante explicar qué datos usa el sistema, cómo se protege la información y qué papel cumple el modelo de lenguaje dentro de la arquitectura.
+1. Problema identificado
+
+Actualmente, la gestión manual del transporte en hoteles presenta dificultades como:
+
+Asignación ineficiente de rutas.
+Cruce de horarios.
+Retrasos en traslados.
+Falta de control en pagos y registros.
+Mala utilización de vehículos y conductores.
+Pérdida de clientes por baja calidad del servicio.
+
+Esto afecta directamente la experiencia del usuario, los costos operativos y la productividad.
+
+2. Solución propuesta
+
+Se plantea desarrollar una plataforma web que permita:
+
+Registrar conductores, clientes y viajes.
+Asignar rutas automáticamente.
+Monitorear viajes en tiempo real.
+Mejorar la trazabilidad del servicio.
+Reducir errores humanos.
+Optimizar decisiones mediante análisis de datos.
+3. Tecnologías del proyecto
+
+El sistema contempla el uso de:
+
+Backend: Spring Boot
+Base de datos: MongoDB / PostgreSQL
+Frontend web moderno
+APIs de mapas y geolocalización
+Servicios en la nube
+Dashboard en Power BI
+Modelo de optimización matemática
+Integración de IA / LLM
+Posible minería de datos y predicción de rutas
+4. Objetivo general
+
+Desarrollar un aplicativo web que optimice la gestión y asignación de conductores y rutas en hoteles de Cartagena, mejorando eficiencia operativa, disminuyendo errores y aumentando la satisfacción del usuario.
+
+5. Objetivos específicos
+
+El proyecto busca:
+
+Analizar requerimientos funcionales y no funcionales.
+Diseñar arquitectura y base de datos.
+Desarrollar módulos del sistema.
+Integrar IA, Power BI y optimización matemática.
+Realizar pruebas unitarias, integración y usabilidad.
+Implementar y desplegar el sistema en entorno real.
+6. Justificación
+
+El proyecto es importante porque:
+
+Automatiza procesos manuales.
+Reduce errores operativos.
+Mejora tiempos de respuesta.
+Aumenta la eficiencia logística.
+Mejora la experiencia del cliente.
+Fortalece la transformación digital en el sector hotelero.
+Puede replicarse en otras empresas de transporte y turismo.
+
+También fortalece habilidades técnicas del equipo en desarrollo web, bases de datos, análisis de datos y arquitectura de software.
+
+7. Marco teórico y antecedentes
+
+El estudio se basa en:
+
+Desarrollo web moderno.
+Sistemas de gestión logística.
+Optimización de rutas.
+Usabilidad e interacción usuario-sistema.
+Inteligencia artificial aplicada a decisiones.
+Arquitecturas escalables con APIs.
+
+Se evidencia que muchas empresas aún dependen de métodos manuales y poco eficientes.
+
+8. Marco legal
+
+El sistema debe cumplir normas de protección de datos y seguridad:
+
+Constitución Política de Colombia (Art. 15 – Habeas Data)
+Ley 1581 de 2012 (protección de datos personales)
+Decreto 1377 de 2013
+Ley 1273 de 2009 (delitos informáticos)
+Ley 527 de 1999 (comercio electrónico y firmas digitales)
+GDPR (referencia internacional)
+9. Metodología de investigación
+
+Se usa un enfoque mixto (cuantitativo + cualitativo) y descriptivo.
+
+Técnicas usadas:
+Encuestas
+Entrevistas
+Observación directa
+Población:
+10 conductores
+3 administradores
+50 clientes
+Muestra:
+5 conductores
+2 administradores
+20 clientes
+10. Diseño metodológico
+
+Se evaluaron:
+
+Problemas del sistema actual.
+Necesidades de usuarios.
+Arquitectura del software.
+Datos de entrada, procesos y salidas.
+Pruebas funcionales.
+Retroalimentación de usuarios reales.
+11. Cronograma
+
+El proyecto se dividió en 3 fases:
+
+Fase 1 (2025)
+Primer modelo GAV
+Integración de APIs
+Modelos predictivos
+Integración de bases de datos
+API de mapas
+Fase 2 (2026)
+Integración LLM / IA
+Dashboard Power BI
+Mejoras de rutas y solicitudes
+Optimización matemática
+Migración y despliegue en la nube
+Fase 3 (2026)
+Planificación de siguientes versiones.
+12. Resultados esperados / obtenidos
+
+Se espera que el sistema:
+
+Mejore la asignación de rutas.
+Reduzca duplicidad de viajes.
+Disminuya retrasos.
+Aumente trazabilidad.
+Facilite gestión administrativa.
+Mejore experiencia del cliente.
+Permita decisiones basadas en datos.
+Optimice recursos y tiempos.
+13. Conclusiones principales
+
+El proyecto demuestra que una solución tecnológica puede transformar la logística de transporte hotelero.
+
+El sistema GAV integra gestión de rutas, conductores, monitoreo, análisis y futura IA, permitiendo:
+
+Mayor eficiencia operativa.
+Mejor control administrativo.
+Escalabilidad.
+Seguridad.
+Mejor satisfacción del usuario.
+Reducción de errores humanos.
+Innovación tecnológica en el sector hotelero.
+Idea central del proyecto (muy útil para exposición o sustentación)
+
+GAV busca digitalizar y optimizar la gestión de viajes y asignación de rutas en hoteles mediante una plataforma web inteligente que combine automatización, análisis de datos, geolocalización e inteligencia artificial para mejorar eficiencia, reducir errores y elevar la calidad del servicio.
+
+Tu proyecto está bastante sólido porque mezcla desarrollo web + IA + optimización matemática + Power BI + logística real, lo que le da bastante valor académico y práctico.
